@@ -33,18 +33,9 @@
       function ChTimezoneBox(called) {
         // Checks whether challenge starts at 12/1am GMT/BST or 2/3am GMT/BST
        if (called == "a") {
-        if (ChTZA == true) {
-         ChTZB == false;
-        } else {
-         ChTZB == true;
-        };
+        ChTZB = false;
        } else {
-        if (ChTZB == true) {
-         ChTZA == false;
-        } else {
-         ChTZA == true;
-        };
-       };
+        ChTZA = false
       };
 
       function ChContent() {
