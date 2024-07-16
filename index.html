@@ -15,7 +15,7 @@
     <input type="text" id="splChMaps" name="splChMaps" placeholder="Challenge maps"><br>
     <input type="text" id="splChRules" name="splChRules" placeholder="Challenge rules"><br>
     <input type="text" id="splChObj" name="splChObj" placeholder="Challenge objective"><br>
-    <input type="radio" id="splChTZA" name="splChTZA" onchange="ChTimezoneBox(a)" value="Timezone Pattern A (12/1am)"><p>Timezone Pattern B (12/1am start)</p> <input type="radio" id="splChTZB" name="splChTZB" onchange="ChTimezoneBox(b)" value="Timezone Pattern B (2/3am)"><p>Timezone Pattern B (2/3am start)</p><br>
+    <input type="radio" id="splChTZA" name="splChTZA" onchange="ChTimezoneBox(a)" value="Timezone Pattern A (12/1am)"><p>Timezone Pattern A (12/1am start)</p> <input type="radio" id="splChTZB" name="splChTZB" onchange="ChTimezoneBox(b)" value="Timezone Pattern B (2/3am)"><p>Timezone Pattern B (2/3am start)</p><br>
     <input type="checkbox" id="splChDST" name="splChDST" value="Is BST"><p>Is BST</p><br>
     <input type="button" id="splChCreate" name="splChCreate" onclick="ChContent()" value="Create">
     <script>
@@ -35,7 +35,7 @@
        if (called == "a") {
         ChTZB = false;
        } else {
-        ChTZA = false
+        ChTZA = false;
       };
 
       function ChContent() {
